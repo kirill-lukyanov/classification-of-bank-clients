@@ -219,4 +219,4 @@ def dependency_vis(X: pd.DataFrame, y: pd.Series, is_category=False, width=1600,
         fig.update_traces(marker=dict(line=dict(width=0.5, color='white')))
 
     fig.update_layout(width=fig_width, height=fig_height, barmode='relative', title_text=title, title_x=0.5)
-    fig.show(renderer='svg', width=fig_width, height=fig_height)
+    fig.show(width=fig_width, height=fig_height)
